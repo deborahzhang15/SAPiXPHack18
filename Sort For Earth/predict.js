@@ -1,5 +1,4 @@
 $(function () {
-
     var url = "https://southcentralus.api.cognitive.microsoft.com/customvision/v2.0/Prediction/615316ed-3ffb-4668-8c32-cd7349505cd6/image?iterationId=2ca231fc-ee9c-4cbb-9047-745f6eade22a"
     var predictionKey = "302de25dba5a4cb0a8733f866fa754e8";
     
@@ -24,7 +23,6 @@ $(function () {
 
         $('#previewImage').html('<img width="240" src="data:image/png;base64,' + contents + '" />');
         $('#analyze_button').prop('disabled', false);
-
     });
 
     // Handle clicks of the Analyze button
@@ -58,7 +56,6 @@ $(function () {
 
         $('#analyze_button').prop('disabled', true);
     });
-
 });
 
 

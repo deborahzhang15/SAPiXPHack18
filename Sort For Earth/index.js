@@ -3,7 +3,7 @@ const url = require('url')
 const path = require('path')
 
 let win
-// appearance-based, light, dark, titlebar, selection, menu, popover, sidebar, medium-light or ultra-dark. 
+
 function createWindow() {
    let appIcon = path.join(__dirname, 'assets/icons/png/icon.png');
    win = new BrowserWindow({width: 925,
