@@ -1,0 +1,50 @@
+<!DOCTYPE html />
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title> Sort for Earh </title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" onload="window.$ = window.jQuery = module.exports;"></script>
+    <script src="predict.js"></script>
+</head>
+
+<body> 
+    <form>
+        <img src="assets/images/header.png"/>
+        <h1> Get Ready to Sort Things Out <i> <s>(literally)</s></i>, Human<strong> Bean</strong>!	&#128686 </h1>
+            
+            <div> Did you know that the average person has the opportunity to recycle more than 25,000 cans in his or her lifetime?
+                That recycling a <i>single</i> aluminum can saves enough energy to power a television for three whole hours?
+            </div>
+            <br>
+             <div> At <strong> SORT FOR EARTH</strong>, we know that you care about the planet and so do we. That's why we made a nifty-as-heck machine learning tool to help you sort your trash with more ease and accuracy.
+                Follow two easy steps to find out if your trash is considered to be recycling, compost, garbage, or a non-compostable material.
+                Happy sorting, <i>fellow earthlings</i>!
+            </div>
+            <h1>&#127817 &#9749 &#128190 &#127822 &#127829 &#127807 &#128465 &#127834 &#128031 	&#127860 &#127856 &#127837 &#128090 &#9842 </h1>
+            <br>
+        <div class="stepLabel">STEP ONE</div>
+        <div> <strong>Browse</strong> to find an image of what you'd like to be sorted on your computer! Hopefully you have one handy.</div> 
+        <br>
+        <input type="button" id="select_button" value="BROWSE" />
+
+        <div id="previewImage"></div>
+        <div id="analysisResults"></div>
+        <br>
+        <br>
+        <div class="stepLabel">STEP TWO</div>
+        <div><strong>Click</strong> to predict which bin your image belongs in!</div>
+        <br>
+        <input disabled=true type="button" id="analyze_button" value="PULL THE LEVER" />
+        
+    </form>
+    <br>
+    <br>
+    <h6> Made with 	&#9829 for the &#127758 by Team KAGED // SAP iXP Hackathon 2018 // Bellevue, Washington </h6>
+
+</body>
+
+</html>
