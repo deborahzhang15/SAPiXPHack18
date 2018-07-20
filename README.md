@@ -1,4 +1,4 @@
-<h1> Sort for Earth </h1>
+<h1> Sort for Earth 🚮</h1>
 
 Did you know that the average person has the opportunity to recycle more than 25,000 cans in his or her lifetime? That recycling a single aluminum can saves enough energy to power a television for three whole hours?
 
